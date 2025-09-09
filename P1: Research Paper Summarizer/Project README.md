@@ -121,10 +121,11 @@ llm = HuggingFaceEndpoint(
 
 ```
 research-paper-summarizer/
-├── main.py                 # Streamlit app and LangGraph implementation
-├── requirements.txt        # Project dependencies
-├── README.md              # This file
-└── .env.example           # Environment variables template
+├── .env.example                 # Environment variables template
+├── Get_Research_Papers.ipynb    # LangGraph implementation ( Jupyter Notebook)            
+├── Get_Research_Papers.py       # Streamlit app and LangGraph implementation
+├── README.md                    # This file
+└── requirements.txt             # Project dependencies
 ```
 
 ## 🛠️ Technical Details
