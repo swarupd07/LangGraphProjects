@@ -54,8 +54,8 @@ graph LR
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/langgraph-mini-projects.git
-   cd langgraph-mini-projects/research-paper-summarizer
+   git clone https://github.com/swarupd07/LangGraphProjects.git
+   cd "LangGraphProjects/P1: Research Paper Summarizer"
    ```
 
 2. **Install dependencies**
@@ -124,7 +124,7 @@ research-paper-summarizer/
 ├── main.py                 # Streamlit app and LangGraph implementation
 ├── requirements.txt        # Project dependencies
 ├── README.md              # This file
-├── .env.example           # Environment variables template
+└── .env.example           # Environment variables template
 ```
 
 ## 🛠️ Technical Details
