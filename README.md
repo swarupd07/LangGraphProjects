@@ -9,6 +9,7 @@ A collection of small-scale LangGraph projects demonstrating various patterns, w
 | `P1: Research Paper Summarizer` | Automated research paper discovery and summarization using Semantic Scholar API | API integration, sequential workflows | ✅ Complete |
 | `P2: YouTube Video Summarizer` | Extract and summarize YouTube video content with optional Q&A generation | External APIs, conditional processing | ✅ Complete |
 | `P3: Project Idea Generator` | Generate personalized project ideas or provide implementation guides for existing ideas | Parallel processing, structured output | ✅ Complete |
+| `P4: Professional Writing Assistant` | Generate professional emails, LinkedIn posts, and LinkedIn messages with smart platform detection | Conditional routing, structured parsing | ✅ Complete |
 
 ## 🛠️ Technologies Used
 
