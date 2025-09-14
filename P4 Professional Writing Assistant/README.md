@@ -231,11 +231,11 @@ class AssistantState(TypedDict):
 
 ```
 professional-writing-assistant/
-├── main.py                    # Streamlit app and LangGraph implementation
-├── requirements.txt           # Project dependencies
-├── README.md                 # This file
-├── .env.example              # Environment variables template
-└── examples/                 # Sample outputs
+├── Professional_Writing_Assistant.py # Streamlit app and LangGraph implementation
+├── requirements.txt                  # Project dependencies
+├── README.md                         # This file
+├── .env.example                      # Environment variables template
+└── examples/                         # Sample outputs
 ```
 
 ## 🎯 Use Cases
