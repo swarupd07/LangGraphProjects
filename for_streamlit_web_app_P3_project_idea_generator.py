@@ -228,14 +228,19 @@ hf_token = st.sidebar.text_input(
 # Initialize model button
 if hf_token and not st.session_state.model_initialized:
     if st.sidebar.button("🚀 Initialize Model"):
-        with st.sidebar.spinner("Initializing model..."):
-            try:
-                initialize_model(hf_token)
-                st.session_state.model_initialized = True
-                st.session_state.PIG_graph = create_graph()
-                st.sidebar.success("✅ Model initialized successfully!")
-            except Exception as e:
-                st.sidebar.error(f"❌ Error initializing model: {str(e)}")
+        try:
+            # Use a placeholder for status updates
+            status_placeholder = st.sidebar.empty()
+            status_placeholder.info("🔄 Initializing model...")
+            
+            initialize_model(hf_token)
+            st.session_state.model_initialized = True
+            st.session_state.PIG_graph = create_graph()
+            
+            status_placeholder.success("✅ Model initialized successfully!")
+        except Exception as e:
+            status_placeholder = st.sidebar.empty()
+            status_placeholder.error(f"❌ Error initializing model: {str(e)}")
 
 # Mode selection (only show if model is initialized)
 if st.session_state.model_initialized:
