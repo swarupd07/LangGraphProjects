@@ -6,16 +6,12 @@ from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from langgraph.graph import StateGraph, START, END
 from typing import TypedDict, Dict, List
 from youtube_transcript_api import YouTubeTranscriptApi
-from dotenv import load_dotenv
 import requests
 import streamlit as st
 import os
 
 
-# ==================================================================================
 
-# Loading environment variables
-load_dotenv()
 
 # ===================================================================================
 
@@ -225,4 +221,5 @@ if st.button("Result"):
                 st.subheader("Thanks for using the app!")
                 
         except Exception as e:
+
             st.error(f"Error initializing the model: {str(e)}. Please check your API key.")
