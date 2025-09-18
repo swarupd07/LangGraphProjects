@@ -9,6 +9,7 @@ A collection of small-scale LangGraph projects demonstrating various patterns, w
 | `P3: Project Idea Generator` | Generate personalized project ideas or provide implementation guides for existing ideas | Parallel processing, structured output | ✅ Complete | [🚀 Try it](https://project-idea-generator-by-swarup.streamlit.app/) |
 | `P4: Professional Writing Assistant` | Generate professional emails, LinkedIn posts, and LinkedIn messages with smart platform detection | Conditional routing, structured parsing | ✅ Complete | [🚀 Try it](https://professional-writing-assistant-by-swarup.streamlit.app/) |
 | `P5: User Persona Generator` | Generate comprehensive user personas with 13-section framework using iterative processing | Iterative loops, state accumulation | ✅ Complete | [🚀 Try it](https://user-persona-generator-by-swarup.streamlit.app/) |
+| `P6: Basic Chat Bot with Memory` | Interactive chatbot with conversation history and session management | State persistence, message handling, Streamlit UI | ✅ Complete | [🚀 Try it](https://chat-bot-v1-by-swarup.streamlit.app/) |
 
 ## 🔄 Project Workflows
 
@@ -72,6 +73,13 @@ graph TD
     D -->|Yes| E[END]
 ```
 
+### P6: Basic Chat Bot with Memory
+```mermaid
+graph LR
+    A[START] --> B[Chat Node]
+    B --> C[END]
+```
+
 ## 🚀 Live Demos
 
 Experience the projects in action:
@@ -80,6 +88,7 @@ Experience the projects in action:
 - **P3 - Project Idea Generator**: [https://project-idea-generator-by-swarup.streamlit.app/](https://project-idea-generator-by-swarup.streamlit.app/)
 - **P4 - Professional Writing Assistant**: [https://professional-writing-assistant-by-swarup.streamlit.app/](https://professional-writing-assistant-by-swarup.streamlit.app/)
 - **P5 - User Persona Generator**: [https://user-persona-generator-by-swarup.streamlit.app/](https://user-persona-generator-by-swarup.streamlit.app/)
+- **P6 - Basic Chat Bot with Memory**: [https://chat-bot-v1-by-swarup.streamlit.app/](https://chat-bot-v1-by-swarup.streamlit.app/)
 
 ## 🛠️ Technologies Used
 
