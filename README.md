@@ -10,6 +10,7 @@ A collection of small-scale LangGraph projects demonstrating various patterns, w
 | `P4: Professional Writing Assistant` | Generate professional emails, LinkedIn posts, and LinkedIn messages with smart platform detection | Conditional routing, structured parsing | ✅ Complete | [🚀 Try it](https://professional-writing-assistant-by-swarup.streamlit.app/) |
 | `P5: User Persona Generator` | Generate comprehensive user personas with 13-section framework using iterative processing | Iterative loops, state accumulation | ✅ Complete | [🚀 Try it](https://user-persona-generator-by-swarup.streamlit.app/) |
 | `P6: Basic Chat Bot with Memory` | Interactive chatbot with conversation history and session management | State persistence, message handling, Streamlit UI | ✅ Complete | [🚀 Try it](https://chat-bot-v1-by-swarup.streamlit.app/) |
+| `P7: Advanced Chat Bot v2.0` | Enhanced chatbot with persistent memory using checkpoints and streaming responses | InMemorySaver, streaming, thread management | ✅ Complete | - |
 
 ## 🔄 Project Workflows
 
@@ -77,7 +78,17 @@ graph TD
 ```mermaid
 graph LR
     A[START] --> B[Chat Node]
-    B --> C[END]
+    B --> C[Memory Management]
+    C --> D[END]
+```
+
+### P7: Advanced Chat Bot v2.0
+```mermaid
+graph LR
+    A[START] --> B[Chat Node]
+    B --> C[InMemorySaver Checkpoint]
+    C --> D[Streaming Response]
+    D --> E[END]
 ```
 
 ## 🚀 Live Demos
